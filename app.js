@@ -1,11 +1,11 @@
 let express = require("express")
 let app = express ();
 let path = require("path");
-app.listen(3000, () => console.log("puerto 3000"));
+app.listen(4000, () => console.log("puerto 4000"));
 
 
 app.get("/", (req, res) => { 
-    res.sendFile(path.join(__dirname, "/views/index.html"))
+    res.sendFile(path.join(__dirname, "/views/home.html"))
 });
 
 
