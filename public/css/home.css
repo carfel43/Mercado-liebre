@@ -1,13 +1,31 @@
+main section{
+    
+    width: 90%;
+    padding: 10px;
+}
+main i{
+
+    padding: 10px;
+    border: 1px  solid #24995c;
+    border-radius: 30px ;
+    
+
+ 
+}
+
 body{
-    background-color: beige;
+   /* background-color: var(--color-Gris-claro);*/
     background-color:URL("");
     background-position: NO-REPEAT;
     background-size: cover;
-    margin: 10px;
+   
 }
 
-
-
+main article{
+    padding: 10px;
+    border: 10px solid var(--color-Gris-claro);
+    background-color: white;
+}
 #imagen1{
     width: 100%;
 }
@@ -23,10 +41,38 @@ body{
 #imagen5{
     width: 100%;
 }
-#negrita{
+.negrita{
     color: black;
 
 }
-#tamaño16{
+.tamaño16{
     font-size: 16px;
 }
+
+
+/*   VERSION MOBILE  */
+@media(max-width:361px){
+    main ol a{
+        display: none;
+    }
+}
+
+
+
+ /*   VERSION TABLET */
+
+
+@media(min-width:361px){
+
+}
+
+
+
+/*     VERSION  DESCKOP  */
+@media(min-width:769px){
+
+}
+
+
+
+

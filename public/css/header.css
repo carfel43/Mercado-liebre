@@ -1,5 +1,6 @@
 
-nav{
+nav{ 
+
     background-color: var(--color-Amarillo);
     
 }
@@ -12,6 +13,7 @@ h5{
     font-size: 24px;
 }
 section{
+    background-color:0;
     text-align:left;
     font-size: 12px;
 }
@@ -34,4 +36,18 @@ section{
     
     position:absolute;
      left: 37%;
+}
+
+/*   TABLET */
+
+
+@media(min-width:361px){
+
+}
+
+
+
+/*   DESCKOP  */
+@media(min-width:769px){
+
 }

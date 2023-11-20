@@ -5,8 +5,28 @@
     font-size: 16px;
 
 }
-.n2{
+#n2{
     text-align: center;
     color: black;
     font-size: 12px;
+}
+ul div{
+    text-align: center;
+}
+ul li{
+    text-align: center;
+}
+
+/*    VERSION  TABLET */
+
+
+@media(min-width:361px){
+
+}
+
+
+
+/*      VERSION  DESCKOP  */
+@media(min-width:769px){
+
 }
